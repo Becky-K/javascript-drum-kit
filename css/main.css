@@ -1,6 +1,6 @@
 html {
   font-size: 10px;
-  background: url('../img/background.jpg') bottom center;
+  background: url('../img/background.jpg') bottom center; 
   background-size: cover;
 }
 
@@ -35,7 +35,7 @@ body {
   border-radius: .5rem;
   margin: 1rem;
   font-size: 1.5rem;
-  padding: 1rem .5rem;
+  padding:  1rem .5rem;
   transition: all .07s ease;
   text-align: center;
   color: white;
