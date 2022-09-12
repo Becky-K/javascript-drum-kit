@@ -13,8 +13,10 @@ const playSound = function(e){
 
 };
 
+
 //plays sound upon keydown
 document.addEventListener("keydown", playSound);
+
 
 //a function to remove transition styles
 const removeTransition = function(e){
@@ -25,4 +27,5 @@ const removeTransition = function(e){
 };
 
 //a forEach loop to remove transition styles after each key is pressed
+
 keys.forEach(key => key.addEventListener("transitionend", removeTransition));
